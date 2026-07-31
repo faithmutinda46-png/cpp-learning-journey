@@ -16,3 +16,14 @@ Otherwise, it tells them they are not eligible.
 - User Input
 - If Else Statements
 - Comparison Operators
+
+## Day 2 Reflection
+
+### What I learned
+I learned how to use 'else if' statements to make a program check multiple conditions and give different results depending on the user's input.
+
+### What challenged me
+Today's lesson was straightforward because I remembered the concepts from before my break. I was able to write the program without getting stuck.
+
+### What I'm proud of
+I'm proud that I wrote the program from memory and it worked on the first attempt.
