@@ -33,3 +33,21 @@ A simple calculator that allows the user to:
 - Problem solving
 - Decision making in C++
 - Writing cleaner and more organized code
+
+### 4. Faith Bank Menu
+
+A simple bank menu where users can check their balance, deposit money, withdraw money, transfer money, or exit.
+
+**Concepts used**
+- `switch`, `case`, `break`, `default`
+- Variables
+- `cin` and `cout`
+- `+` and `-` operators
+
+**What I learned**
+- How to update a variable.
+- I learned that I can use the same variable to store a new value.
+- I used:
+  - `balance = balance + deposit`
+  - `balance = balance - withdraw`
+- I also learned how to combine `switch` statements with variables to build a simple bank menu.
