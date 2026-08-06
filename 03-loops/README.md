@@ -34,3 +34,20 @@ A program that prints the multiplication table of any number entered by the user
 - How to use a `for` loop with user input.
 - How to repeat the same calculation using a loop.
 - How to display a multiplication table neatly.
+
+### 3. PIN Login
+
+A program that keeps asking the user to enter the correct PIN before giving access.
+
+**Concepts used**
+- `while` loop
+- `if...else`
+- Variables
+- `cin` and `cout`
+- Comparison operators (`==` and `!=`)
+
+**What I learned**
+- How to use a `while` loop to repeat a program until a condition is met.
+- How to combine a `while` loop with an `if...else` statement.
+- How to use `!=` to check if two values are not equal.
+  overall this was a whole new experience combining the two concepts.
