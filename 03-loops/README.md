@@ -53,3 +53,9 @@ A program that keeps asking the user to enter the correct PIN before giving acce
 
 
   overall this was a whole new experience combining the two concepts.
+  
+### Project Upgrade
+- Added a limit of 3 PIN attempts.
+- Displayed the remaining attempts after each wrong PIN.
+- Locked the account after 3 wrong attempts.
+- ensured that the user doesnt get a try again message after the attempts are over,it only prints "Account locked!"
