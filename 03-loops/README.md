@@ -59,3 +59,34 @@ A program that keeps asking the user to enter the correct PIN before giving acce
 - Displayed the remaining attempts after each wrong PIN.
 - Locked the account after 3 wrong attempts.
 - ensured that the user doesnt get a try again message after the attempts are over,it only prints "Account locked!"
+
+# Number Guessing Game
+
+This project is a simple number guessing game. The program has a secret number and the user keeps guessing until they get the correct number.
+
+## What I learned
+
+- How to use a `while` loop to keep repeating until a condition becomes false.
+- How to use `if` and `else if` to check different conditions.
+- How to use `||` which means OR.
+- How to use `!=` to check if two values are not equal.
+- How to check if a number is within a certain range.
+- How to give a variable a starting value before using it in a condition.
+- How to combine loops and conditions in one program.
+
+## Challenges I encountered
+
+- I first got stuck in an endless loop because I was not asking the user for another number inside the loop.
+- I had trouble understanding where to place the `if` and `else if` conditions.
+- I initially made the program show "Wrong guess" even when the correct number was entered.
+- I learned that the `else` condition can run when a number is valid even if it is not the correct number, so I needed to separate the different conditions properly.
+- I also learned why variables should be given a starting value before using them in a condition.
+
+## What the program does
+
+- Asks the user to guess a number between 1 and 100.
+- Checks if the number is outside the allowed range.
+- Tells the user when the guess is wrong.
+- Keeps asking for another guess using a `while` loop.
+- Stops when the correct number is entered.
+- Displays a congratulations message when the user gets the correct number.
