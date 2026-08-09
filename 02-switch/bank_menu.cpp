@@ -17,7 +17,7 @@ int main(){
 	cout << "3.Withdraw money\n";
 	cout << "4.Transfer money\n";
 	cout << "5.Exit\n";
-	cout << "Enter your choice : ";
+	cout << "Enter your choice : \n";
 	cin >> choice;
 	
 	switch (choice){
