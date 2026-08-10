@@ -90,3 +90,29 @@ This project is a simple number guessing game. The program has a secret number a
 - Keeps asking for another guess using a `while` loop.
 - Stops when the correct number is entered.
 - Displays a congratulations message when the user gets the correct number.
+
+# Sum of Numbers
+
+This project asks the user to enter a number and then calculates the sum of all numbers from 1 up to that number.
+
+## What I learned
+
+- How to use a `for` loop to repeat a task.
+- How to use `sum = 0` to give a variable a starting value.
+- How to use `sum += i` to keep adding numbers to the total.
+- How to use `i <= number` to control when the loop stops.
+- How to put the calculation inside the loop and display the final answer after the loop.
+
+## Challenges I encountered
+
+- I initially set the `for` loop condition incorrectly, which would have made the loop continue forever.
+- I didn't know that `sum` needed to start at `0`.
+- I first tried to write `cout << sum += i`, which gave me an error.
+- I learned that it is better to do the calculation first using `sum += i` and then use `cout` to display the final answer after the loop.
+
+## What the program does
+
+- Asks the user to enter a number.
+- Uses a `for` loop to count from 1 up to that number.
+- Adds each number to `sum`.
+- Displays the final total.
