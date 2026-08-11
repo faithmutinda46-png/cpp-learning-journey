@@ -116,3 +116,29 @@ This project asks the user to enter a number and then calculates the sum of all 
 - Uses a `for` loop to count from 1 up to that number.
 - Adds each number to `sum`.
 - Displays the final total.
+
+# Factorial Calculator
+
+This project asks the user to enter a number and calculates its factorial using a for loop.
+
+## What I learned
+
+- How to use a `for` loop to repeat multiplication.
+- How to use `result = 1` as the starting value.
+- How to use `result *= i` to keep multiplying the result.
+- How the value of `i` changes each time the loop runs.
+- How to use `if` and `else` to control the output.
+
+## Challenges I encountered
+
+- I first set `result` to `0`, which made the answer stay at 0.
+- I initially used `number` instead of `i` when multiplying.
+- I had to understand what `result *= i` means logically.
+- I also worked on making the output clear by showing the numbers being multiplied and the final answer.
+
+## What the program does
+
+- Asks the user to enter a number.
+- Uses a `for` loop to multiply the numbers from 1 up to the number entered.
+- Stores the result in the `result` variable.
+- Displays the factorial calculation and the final answer.
