@@ -142,3 +142,28 @@ This project asks the user to enter a number and calculates its factorial using 
 - Uses a `for` loop to multiply the numbers from 1 up to the number entered.
 - Stores the result in the `result` variable.
 - Displays the factorial calculation and the final answer.
+
+# Even & Odd Number Checker
+
+This project asks the user to enter a number and checks whether the number is even or odd.
+
+## What I learned
+
+- How to use the modulus `%` operator to find the remainder after division.
+- How to use `if` and `else` to handle two different outcomes.
+- How to use `==` to compare values.
+- How to check whether a number is divisible by 2.
+- When a loop is not necessary for a problem.
+
+## Challenges I encountered
+
+- I initially thought I needed a `while` loop for this project.
+- I created `even` and `odd` variables that were not actually needed.
+- I had to understand how the `%` operator works.
+- I learned that if a number divided by 2 has a remainder of 0, it is even; otherwise, it is odd.
+
+## What the program does
+
+- Asks the user to enter a number.
+- Checks the remainder when the number is divided by 2.
+- Displays whether the number is even or odd.
