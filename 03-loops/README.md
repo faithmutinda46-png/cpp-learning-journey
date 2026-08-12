@@ -60,7 +60,7 @@ A program that keeps asking the user to enter the correct PIN before giving acce
 - Locked the account after 3 wrong attempts.
 - ensured that the user doesnt get a try again message after the attempts are over,it only prints "Account locked!"
 
-# Number Guessing Game
+4. Number Guessing Game
 
 This project is a simple number guessing game. The program has a secret number and the user keeps guessing until they get the correct number.
 
@@ -91,7 +91,7 @@ This project is a simple number guessing game. The program has a secret number a
 - Stops when the correct number is entered.
 - Displays a congratulations message when the user gets the correct number.
 
-# Sum of Numbers
+5. Sum of Numbers
 
 This project asks the user to enter a number and then calculates the sum of all numbers from 1 up to that number.
 
@@ -117,7 +117,7 @@ This project asks the user to enter a number and then calculates the sum of all 
 - Adds each number to `sum`.
 - Displays the final total.
 
-# Factorial Calculator
+6. Factorial Calculator
 
 This project asks the user to enter a number and calculates its factorial using a for loop.
 
@@ -143,7 +143,7 @@ This project asks the user to enter a number and calculates its factorial using 
 - Stores the result in the `result` variable.
 - Displays the factorial calculation and the final answer.
 
-# Even & Odd Number Checker
+7. Even & Odd Number Checker
 
 This project asks the user to enter a number and checks whether the number is even or odd.
 
