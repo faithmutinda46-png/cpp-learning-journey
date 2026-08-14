@@ -77,3 +77,31 @@ This project introduces return values by creating a function that accepts two in
 - Returns the sum.
 - Calls the function with different numbers.
 - Displays the returned results.
+
+
+4. Addition with User Input
+
+This project builds on the previous addition function by allowing the user to enter two numbers and passing those numbers to a function to calculate their sum.
+
+## What I learned
+
+- How to combine user input with functions.
+- How to pass variables as arguments to a function.
+- How parameters receive the values passed to them.
+- How a function can return a calculated value.
+- How to use the returned value directly inside `cout`.
+
+## Challenges I encountered
+
+- I initially placed the `cout` and `cin` statements outside `main()`.
+- I initially tried to output the function itself instead of calling it.
+- I had to understand how to pass the user-entered variables into the function.
+- I learned how the returned value from the function can be displayed directly.
+
+## What the program does
+
+- Asks the user to enter two numbers.
+- Stores the numbers in variables.
+- Passes the numbers to the `add` function.
+- Calculates and returns their sum.
+- Displays the sum to the user.
