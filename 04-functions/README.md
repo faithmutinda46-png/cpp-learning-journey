@@ -48,3 +48,32 @@ This project builds on the basics of functions by creating a function that accep
 - Accepts a person's name and age as parameters.
 - Displays a personalized greeting using the information provided.
 - Calls the function with the name "Faith" and age 25.
+
+
+3.Addition Function
+
+This project introduces return values by creating a function that accepts two integers, adds them together, and returns the result.
+
+## What I learned
+
+- How to create a function that returns a value.
+- The difference between `void` and a function with a return type such as `int`.
+- How to use the `return` statement.
+- How to pass arguments to a function.
+- How to call the same function multiple times with different values.
+- How the returned value can be displayed using `cout`.
+
+## Challenges I encountered
+
+- Understanding why `int` appears before the function name and also before the parameters.
+- Understanding the difference between a function that displays a result using `cout` and one that returns a result.
+- Understanding how `return` sends a value back to the part of the program that called the function.
+- Learning how to call the same function with different arguments.
+
+## What the program does
+
+- Defines an `add` function that accepts two integers.
+- Adds the two numbers together.
+- Returns the sum.
+- Calls the function with different numbers.
+- Displays the returned results.
