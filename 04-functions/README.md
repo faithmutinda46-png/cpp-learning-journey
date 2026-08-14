@@ -105,3 +105,29 @@ This project builds on the previous addition function by allowing the user to en
 - Passes the numbers to the `add` function.
 - Calculates and returns their sum.
 - Displays the sum to the user.
+
+
+5.subtraction function
+This project builds on the addition function by using the same structure to subtract two numbers. It also uses user input and a function that returns the calculated result.
+
+## What I learned
+
+- How to create a function that performs subtraction.
+- How to pass user input as arguments to a function.
+- How to return the result from a function.
+- How to reuse logic from a previous project and adapt it to a new problem.
+- How recognizing patterns can make similar programming problems easier.
+
+## Challenges I encountered
+
+- This project was a bit easy because I built it on the same logic I had already learned from the addition function.
+- I mainly needed to change the operation from addition to subtraction.
+- I practiced applying what I had already learned without starting from scratch.
+
+## What the program does
+
+- Asks the user to enter two numbers.
+- Passes the numbers to the `subtract` function.
+- Subtracts the second number from the first number.
+- Returns the result.
+- Displays the result to the user.
