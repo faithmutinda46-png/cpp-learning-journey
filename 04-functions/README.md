@@ -131,3 +131,35 @@ This project builds on the addition function by using the same structure to subt
 - Subtracts the second number from the first number.
 - Returns the result.
 - Displays the result to the user.
+
+6. Calculator Functions
+
+This project combines the function concepts I have learned so far to create a simple calculator that performs addition, subtraction, multiplication, and division.
+
+## What I learned
+
+- How to create and use multiple functions in one program.
+- How to pass user input as arguments to functions.
+- How to use return values from different functions.
+- How to use conditional statements to determine which function should be called.
+- How to use logical operators such as `&&`.
+- How to use a `while` loop to validate user input.
+- How to handle division by zero.
+
+## Challenges I encountered
+
+- I initially tried to compare the user's choice directly with the function names instead of the numbers assigned to the menu options.
+- I had to understand how to use `if` and `else if` to call the correct function based on the user's choice.
+- I learned how to use a `while` loop to keep asking for input until the user enters a valid menu option.
+- I had to separate a valid division from division by zero so the program could give the user the correct message.
+- I also discovered that using `int` for division does not display decimal results.
+
+## What the program does
+
+- Asks the user to enter two numbers.
+- Displays a menu with four operations.
+- Allows the user to choose an operation.
+- Repeats the menu choice if an invalid option is entered.
+- Calls the appropriate function based on the user's choice.
+- Prevents division by zero.
+- Displays the calculated result.
