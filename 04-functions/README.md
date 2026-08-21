@@ -163,3 +163,31 @@ This project combines the function concepts I have learned so far to create a si
 - Calls the appropriate function based on the user's choice.
 - Prevents division by zero.
 - Displays the calculated result.
+
+7. Find Maximum
+
+This project builds on the function concepts I have learned so far by creating a function that compares three numbers and returns the largest one.
+
+## What I learned
+
+- How to create a function with three parameters.
+- How to compare multiple values using conditional statements.
+- How to use the `&&` logical operator to check multiple conditions at the same time.
+- How to return different values from a function depending on the result of a condition.
+- How to pass three user-input values to a function.
+- How to use the value returned by a function in `main()`.
+
+## Challenges I encountered
+
+- I initially tried to compare the numbers directly inside `main()` instead of putting the comparison logic inside the function.
+- I initially misunderstood how to use `&&` when comparing one number against the other two.
+- I learned that each side of `&&` needs to be a complete condition.
+- I had to think about how `if`, `else if`, and `else` work when comparing three different numbers.
+
+## What the program does
+
+- Asks the user to enter three numbers.
+- Passes the three numbers to the `findMaximum` function.
+- Compares the three numbers.
+- Returns the largest number.
+- Displays the largest number to the user.
