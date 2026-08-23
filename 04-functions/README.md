@@ -191,3 +191,7 @@ This project builds on the function concepts I have learned so far by creating a
 - Compares the three numbers.
 - Returns the largest number.
 - Displays the largest number to the user.
+
+7.Even or Odd Function
+##what i learnt
+
