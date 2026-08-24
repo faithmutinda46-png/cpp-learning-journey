@@ -192,6 +192,31 @@ This project builds on the function concepts I have learned so far by creating a
 - Returns the largest number.
 - Displays the largest number to the user.
 
-7.Even or Odd Function
-##what i learnt
+8. Even or Odd Function
+
+This project builds on the previous even or odd program by moving the even and odd checking logic into a function that returns a Boolean value.
+
+## What I learned
+
+- How to create a function that returns a `bool` value.
+- How Boolean values can be either `true` or `false`.
+- How to use the modulus operator `%` to determine whether a number is even or odd.
+- How to use a function call as the condition of an `if` statement.
+- How to separate the responsibility of a function from the responsibility of `main()`.
+- How a function can determine a result while `main()` handles displaying the appropriate message.
+
+## Challenges I encountered
+
+- I initially created the function but continued checking whether the number was even or odd directly inside `main()`.
+- I had to understand that the function should be responsible for determining whether the number is even or odd.
+- I initially thought I could simply use `cout << result(number)`, but learned that this would only display `1` or `0` instead of the appropriate message.
+- I learned how to use the Boolean value returned by the function inside an `if` statement.
+
+## What the program does
+
+- Asks the user to enter a number.
+- Passes the number to the `result` function.
+- Checks whether the number is divisible by 2.
+- Returns `true` if the number is even and `false` if it is odd.
+- Uses the returned Boolean value to display whether the number is even or odd.
 
