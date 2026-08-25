@@ -220,3 +220,31 @@ This project builds on the previous even or odd program by moving the even and o
 - Returns `true` if the number is even and `false` if it is odd.
 - Uses the returned Boolean value to display whether the number is even or odd.
 
+9. Factorial Function
+
+This project builds on the factorial calculator I previously created using loops by moving the factorial calculation into a function.
+
+## What I learned
+
+- How to combine functions with `for` loops.
+- How to pass parameters to a function.
+- How to use a variable to store and update a running calculation.
+- How to use `return` to send the final result back to `main()`.
+- How to separate the calculation from user input and output.
+- How the scope of variables affects where they can be used.
+
+## Challenges I encountered
+
+- I initially placed the factorial calculation in the wrong part of the program.
+- I had to understand that the `result` variable needed to be available to the factorial calculation.
+- I initially placed the `return` statement inside the loop, which caused the function to return before completing the calculation.
+- I had to understand that the loop should finish calculating the factorial before the function returns the final result.
+- I eventually figured out how to move the factorial logic into the function and call it from `main()`.
+
+## What the program does
+
+- Asks the user to enter a number.
+- Passes the number and starting result to the `factorial` function.
+- Uses a `for` loop to calculate the factorial.
+- Returns the calculated factorial.
+- Displays the result to the user.
