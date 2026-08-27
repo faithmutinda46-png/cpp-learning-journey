@@ -1,4 +1,4 @@
-1. Say Hello
+## 1. Say Hello
 
 This project is my first introduction to functions in C++. It uses a simple function to display a greeting.
 
@@ -22,7 +22,7 @@ This project is my first introduction to functions in C++. It uses a simple func
 - The function displays a greeting.
 - Calls the function from `main()`.
 
-2. Introduce Person
+## 2. Introduce Person
 
 This project builds on the basics of functions by creating a function that accepts a person's name and age and uses them to display a greeting.
 
@@ -50,7 +50,7 @@ This project builds on the basics of functions by creating a function that accep
 - Calls the function with the name "Faith" and age 25.
 
 
-3.Addition Function
+## 3.Addition Function
 
 This project introduces return values by creating a function that accepts two integers, adds them together, and returns the result.
 
@@ -79,7 +79,7 @@ This project introduces return values by creating a function that accepts two in
 - Displays the returned results.
 
 
-4. Addition with User Input
+## 4. Addition with User Input
 
 This project builds on the previous addition function by allowing the user to enter two numbers and passing those numbers to a function to calculate their sum.
 
@@ -107,7 +107,7 @@ This project builds on the previous addition function by allowing the user to en
 - Displays the sum to the user.
 
 
-5.subtraction function
+## 5.subtraction function
 This project builds on the addition function by using the same structure to subtract two numbers. It also uses user input and a function that returns the calculated result.
 
 ## What I learned
@@ -132,7 +132,7 @@ This project builds on the addition function by using the same structure to subt
 - Returns the result.
 - Displays the result to the user.
 
-6. Calculator Functions
+## 6. Calculator Functions
 
 This project combines the function concepts I have learned so far to create a simple calculator that performs addition, subtraction, multiplication, and division.
 
@@ -164,7 +164,7 @@ This project combines the function concepts I have learned so far to create a si
 - Prevents division by zero.
 - Displays the calculated result.
 
-7. Find Maximum
+## 7. Find Maximum
 
 This project builds on the function concepts I have learned so far by creating a function that compares three numbers and returns the largest one.
 
@@ -192,7 +192,7 @@ This project builds on the function concepts I have learned so far by creating a
 - Returns the largest number.
 - Displays the largest number to the user.
 
-8. Even or Odd Function
+## 8. Even or Odd Function
 
 This project builds on the previous even or odd program by moving the even and odd checking logic into a function that returns a Boolean value.
 
@@ -220,7 +220,7 @@ This project builds on the previous even or odd program by moving the even and o
 - Returns `true` if the number is even and `false` if it is odd.
 - Uses the returned Boolean value to display whether the number is even or odd.
 
-9. Factorial Function
+## 9. Factorial Function
 
 This project builds on the factorial calculator I previously created using loops by moving the factorial calculation into a function.
 
@@ -248,3 +248,35 @@ This project builds on the factorial calculator I previously created using loops
 - Uses a `for` loop to calculate the factorial.
 - Returns the calculated factorial.
 - Displays the result to the user.
+
+## 10. Prime Number Checker
+
+This project builds on the function concepts I have learned by creating a function that checks whether a number is a prime number.
+
+## What I learned
+
+- How to create a function that returns a `bool` value.
+- How to use a `for` loop to check possible divisors.
+- How to use the modulus operator `%` to check if a number divides evenly.
+- How to use `return false` to stop a function when a condition is met.
+- How to return `true` after a loop finishes without finding a divisor.
+- How to use an `if` statement without always needing an `else`.
+- How to handle numbers less than 2.
+- How to use a Boolean function result inside an `if` statement.
+
+## Challenges I encountered
+
+- I initially struggled to understand how the `for` loop and `if` statement would work together.
+- I initially returned `true` or `false` too early inside the loop.
+- I had to understand that finding a divisor means the number is not prime.
+- I learned that if no divisor is found after the loop finishes, the number can be considered prime.
+- I also had to understand why an `else` was not necessary inside the loop.
+
+## What the program does
+
+- Asks the user to enter a number.
+- Checks whether the number is less than 2.
+- Uses a `for` loop to check possible divisors.
+- Returns `false` if another divisor is found.
+- Returns `true` if no divisor is found.
+- Displays whether the number is prime or not.
