@@ -280,3 +280,30 @@ This project builds on the function concepts I have learned by creating a functi
 - Returns `false` if another divisor is found.
 - Returns `true` if no divisor is found.
 - Displays whether the number is prime or not.
+
+## 11. Reverse Number Function
+
+This project was a bit challenging at first because I didn't fully understand the logic behind reversing a number. I used a `while` loop to take the last digit of a number, remove it, and build the reversed number one digit at a time.
+
+## What I learned
+
+- How to use a `while` loop.
+- How to use `% 10` to get the last digit of a number.
+- How to use `/ 10` to remove the last digit.
+- How to build a reversed number using `reversed * 10 + lastDigit`.
+- How variables can have different scopes depending on where they are declared.
+- How a function can handle the whole process and return the final result.
+
+## Example
+
+If the user enters:
+
+`12345`
+
+The program returns:
+
+`54321`
+
+## What I found challenging
+
+Understanding the logic was harder than writing the code. I initially struggled to understand how the `while` loop, `lastDigit`, and `reversed` worked together. After breaking the process down step by step, I was able to understand how the number is reversed.
