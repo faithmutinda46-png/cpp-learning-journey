@@ -308,24 +308,29 @@ The program returns:
 
 Understanding the logic was harder than writing the code. I initially struggled to understand how the `while` loop, `lastDigit`, and `reversed` worked together. After breaking the process down step by step, I was able to understand how the number is reversed.
 
-## 12.Count Digits in a Number
-This project allows the user to enter a whole number and tells the user how many numbers they are
+## 12. Count Digits in a Number
 
-## What i learnt
--Expanding my knowledge on while looop.
--How to use `/ 10` to remove the last didgit from the whole number the user input.
--How to use `count ++` to record the removed digits untill we reach 0 and the loop ends.
--How to use if and return 1 to ensure when the user enters 0 ,they get the correct number of digits which is 1 and not 0.
--How functions can handle all the calculations and logic and return the result and we can call the function at any point of the program when we need it.
+This project allows the user to enter a whole number and tells the user how many digits it has.
 
-## What the program does
--Asks the user to enter a whole number
--checks how many numbers are there
--Uses while loop to count how many numbers are in the whole number the user entered
--Returns the total numbers in the whole number using varriable count
--Displays the result of the user
+## What I Learnt
 
-## Challenges I encountered
--I initially couldn't figure out how to position the while loop
--I initially couldn't figure out which varriable to use
--I initially couldn't figure out how to incoporate the if statment,i first used it after my while loop and noticed it when the loop finishes number == 0 and then the program goes to the if statment and checks if number == 0 and finds out its true so it returns 1 and the program ends
+- Expanding my knowledge of `while` loops.
+- How to use `/ 10` to remove the last digit from the whole number the user inputs.
+- How to use `count++` to record the removed digits until we reach 0 and the loop ends.
+- How to use an `if` statement and `return 1` to ensure that when the user enters 0, they get the correct number of digits, which is 1 and not 0.
+- How functions can handle all the calculations and logic, return the result, and be called at any point in the program when we need them.
+
+## What the Program Does
+
+- Asks the user to enter a whole number.
+- Checks how many digits are in the number.
+- Uses a `while` loop to count how many digits are in the whole number the user entered.
+- Returns the total number of digits using the `count` variable.
+- Displays the result to the user.
+
+## Challenges I Encountered
+
+- I initially couldn't figure out where to position the `while` loop.
+- I initially couldn't figure out which variable to use.
+- I initially couldn't figure out how to incorporate the `if` statement.
+- I first used the `if` statement after the `while` loop and noticed that when the loop finishes, `number == 0`, so the program goes to the `if` statement, checks if `number == 0`, finds that it is true, and returns 1. However, I realized that this would not work correctly for the other numbers, so I moved the `if` statement before the `while` loop.
