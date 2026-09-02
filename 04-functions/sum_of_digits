@@ -14,10 +14,19 @@ int sumOfDigits(int number){
 		return sum;
 }
 int main(){
-	int number;
-	cout << "Enter a whole number : ";
+	int number = 0;
+	
+	cout << "== Continuous Digit Sum Calculation ==\n";
+	while(true){
+	cout << "\nEnter a whole number or(press -1 to exit) : \n";
 	cin >> number;
 	
+	if(number == -1){
+		cout << "Thank you for using the sum calculator. Goodbye!\n";
+		break;
+	}
+
 	cout << "Sum of the whole number is : " << sumOfDigits(number);
+}
 	return 0;
 }
