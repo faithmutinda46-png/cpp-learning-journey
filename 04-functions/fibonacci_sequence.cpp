@@ -5,10 +5,10 @@ using namespace std;
 
 int fib(int number){
 	// If the user asks for only one term,the first fibonacci number is 0.
-	if(number <=0){
+	if(number <=0){//gives a solution if the user enter 0 or below 0.
 		return 0;
 	}
-	if(number == 1){
+	if(number == 1){//give another solution if the user enters 1.
 		cout << 0 << " ";
 		return 1;
 	}
