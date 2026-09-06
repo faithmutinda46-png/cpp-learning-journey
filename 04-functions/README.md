@@ -334,3 +334,20 @@ This project allows the user to enter a whole number and tells the user how many
 - I initially couldn't figure out which variable to use.
 - I initially couldn't figure out how to incorporate the `if` statement.
 - I first used the `if` statement after the `while` loop and noticed that when the loop finishes, `number == 0`, so the program goes to the `if` statement, checks if `number == 0`, finds that it is true, and returns 1. However, I realized that this would not work correctly for the other numbers, so I moved the `if` statement before the `while` loop.
+
+## 14. Fibonacci Sequence
+
+### Short Description
+A C++ program that generates the Fibonacci sequence based on the number of terms entered by the user.
+
+### What I Learnt
+- Using functions to generate a sequence.
+- Using a `for` loop when the number of repetitions is known.
+- Updating variables to calculate the next Fibonacci number.
+- Using `return` to send a value back from a function.
+
+### What the Program Does
+The program asks the user how many Fibonacci terms they want and then displays the sequence starting from 0 and 1.
+
+### Challenges I Encountered
+I initially found it confusing to understand how `first`, `second`, and `next` were updated inside the loop. I also learnt how to handle cases where the user enters 0 or 1 term.
