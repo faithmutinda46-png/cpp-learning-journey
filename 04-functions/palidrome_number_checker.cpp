@@ -23,5 +23,8 @@ int main(){
 	int number = 0;
 	cout << "Enter a number to check if its palidrome or not : ";
 	cin >> number;
+
+	cout << pali(number);
+	return 0;
 	
 }
