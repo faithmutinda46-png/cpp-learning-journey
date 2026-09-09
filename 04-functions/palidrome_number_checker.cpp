@@ -2,21 +2,21 @@
 using namespace std;
 
 int pali(int number){//reverse,lastDigit
-    int reverse = 0;
+    int reversed = 0;
     int lastDigit = 0;
     
 	while(number != 0){
     lastDigit = number % 10;
-    reverse = (reverse) + lastDigit;
+    reversed = reversed * 10 + lastDigit;
     number = number / 10;
     
 	}
-  if(number == reverse){
+  if(number == reversed){
   	cout << "Number is palidrome";
   }else{
   	cout << "Number is not palidrome";
   }
-  return reverse;
+  return pali;
 	
 }
 int main(){
