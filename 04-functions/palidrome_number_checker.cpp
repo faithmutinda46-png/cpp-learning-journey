@@ -25,6 +25,6 @@ int main(){
 	cout << "Enter a number to check if its palidrome or not : ";
 	cin >> number;
 	
-	cout << pali(number);
+	pali(number);
 	return 0;
 }
