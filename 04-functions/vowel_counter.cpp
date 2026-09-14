@@ -2,10 +2,14 @@
 #include<string>
 using namespace std;
 
+// Counts the number of vowels in a word.
 int numberOfVowels(string vowel){
 	int count = 0;//count varriable
-	
+
+	// Check each character in the word.
 	for(int i = 0; i < vowel.length(); i++){
+
+		// Increase count if the character is a vowel.
 		if(vowel[i] == 'a' || vowel[i] == 'e' || vowel[i] == 'i' || vowel[i] == 'o' || vowel[i] == 'u' ){
 			count++;
 		}
