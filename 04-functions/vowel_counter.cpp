@@ -3,7 +3,7 @@
 using namespace std;
 
 int numberOfVowels(string vowel){
-	int count = 0;
+	int count = 0;//count varriable
 	
 	for(int i = 0; i < vowel.length(); i++){
 		if(vowel[i] == 'a' || vowel[i] == 'e' || vowel[i] == 'i' || vowel[i] == 'o' || vowel[i] == 'u' ){
