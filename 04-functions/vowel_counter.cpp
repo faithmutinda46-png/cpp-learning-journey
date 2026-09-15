@@ -18,10 +18,12 @@ int numberOfVowels(string vowel){
 }
 int main(){
 	string vowel;
-	
+
+	//ask the user for the input
 	cout << "Enter a word and get to know the number of vowels in the word : ";
 	cin >> vowel;
-	
+
+	//show output 
 	cout << numberOfVowels(vowel);
 	return 0;
 }
