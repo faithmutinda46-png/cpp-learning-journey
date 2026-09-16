@@ -21,7 +21,7 @@ int main(){
 
 	//ask the user for the input
 	cout << "Enter a word and get to know the number of vowels in the word : ";
-	cin >> vowel;
+	getline(cin,vowel);
 
 	//show output 
 	cout << numberOfVowels(vowel);
