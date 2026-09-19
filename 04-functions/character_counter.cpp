@@ -13,6 +13,8 @@ int characters(string letters){
 }
 int main(){
 	string letters;
+
+	// Get the whole sentence from the user.
 	cout << "Write a sentence : ";
 	getline(cin,letters);
 	
