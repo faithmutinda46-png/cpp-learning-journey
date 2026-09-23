@@ -3,7 +3,7 @@ using namespace std;
 
 //create a function that we can reuse.
 int words(string sentence){
-	int count = 0;
+	int count = 0;//count varriable
 
 	//use for loop to count and store the number of words in a sentence
 	for(int i = 0; i < sentence.length(); i++){
@@ -21,10 +21,12 @@ int words(string sentence){
 
 int main(){
 	string sentence;
-	
+
+	//ask the user to enter output and use getline to count the number of words entered
 	cout << "Enter a sentence : \n";
-	getline(cin,sentence);//use get line to get sentence input from the user
+	getline(cin,sentence);
 	
+	//print the output
 	cout << words(sentence);
 	return 0;
 }
