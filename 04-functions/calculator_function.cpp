@@ -2,6 +2,7 @@
 #include<string>
 using namespace std;
 
+//create a function
 int addition(int firstNumber, int secondNumber){
 	return firstNumber + secondNumber;
 }
@@ -19,12 +20,14 @@ int main(){
 	int firstNumber = 0;
 	int secondNumber = 0;
 	int choice = 0;
-	
+
+	//ask the user for their input
 	cout << "Enter first number : ";
 	cin >> firstNumber;
 	cout << "Enter second number : ";
 	cin >> secondNumber;
-	
+
+	//give the user the menu to choose from
 	cout << "Choose an operation \n";
 	cout << "1.Addition \n";
 	cout << "2.Subtraction \n";
