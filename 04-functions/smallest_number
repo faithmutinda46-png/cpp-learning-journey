@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int findSmallest(int numbers[5]){
+	
+	int smallest = numbers[0];
+	
+	for(int i = 0; i < 5; i++){
+		if(numbers[i < smallest]){
+			smallest = numbers[i];
+		}
+	}
+	return smallest;
+	
+}
+int main(){
+	
+	int numbers[5];
+	
+	cout << "Enter numbers : \n";
+	
+	for(int i = 0; i < 5; i++){
+	
+	cin >> numbers[i];
+}
+
+	cout << findSmallest(numbers) << " is the smallest number.";
+	return 0;
+
+}
