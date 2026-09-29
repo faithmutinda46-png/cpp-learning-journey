@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// Find the smallest number in the array.
 int findSmallest(int numbers[5]){
-	
+
+    // Start with the first number as the smallest.
 	int smallest = numbers[0];
 	
 	for(int i = 0; i < 5; i++){
