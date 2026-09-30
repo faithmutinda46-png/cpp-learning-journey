@@ -6,12 +6,14 @@ int findSmallest(int numbers[5]){
 
     // Start with the first number as the smallest.
 	int smallest = numbers[0];
-	
+
+    // Check each number and update smallest when a smaller number is found.
 	for(int i = 0; i < 5; i++){
 		if(numbers[i < smallest]){
 			smallest = numbers[i];
 		}
 	}
+    // Return the smallest number.
 	return smallest;
 	
 }
