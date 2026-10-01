@@ -20,7 +20,8 @@ int findSmallest(int numbers[5]){
 int main(){
 	
 	int numbers[5];
-	
+
+    // Ask the user to enter 5 numbers.
 	cout << "Enter numbers : \n";
 	
 	for(int i = 0; i < 5; i++){
