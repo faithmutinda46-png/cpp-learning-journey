@@ -29,7 +29,7 @@ int main(){
 	
 	cin >> numbers[i];
 }
-
+    // Display the smallest number found.
 	cout << findSmallest(numbers) << " is the smallest number.";
 	return 0;
 
