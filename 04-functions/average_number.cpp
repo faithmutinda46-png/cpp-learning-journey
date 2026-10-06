@@ -9,8 +9,10 @@ double calculateAverage(int numbers[5]){
 	for(int i = 0; i < 5; i++){
     sum = sum + numbers[i];
 }
+	// Divide the total by 5 to get the average.
     double average = sum / 5.0;
 
+// Return the calculated average.	
 return average;
 }
 int main(){
