@@ -17,11 +17,14 @@ return average;
 }
 int main(){
 	int numbers[5];
+	// Ask the user to enter 5 numbers.
 	cout << "Enter 5 numbers: \n";
-	
-	for(int i = 0; i < 5; i++){
+
+	// Store the user's numbers in the array.
+	for(int i = 0; i < 5; i++){	
     cin >> numbers[i];
 }
+// Display the average calculated by the function.
 cout << calculateAverage(numbers);
 return 0;
 }
