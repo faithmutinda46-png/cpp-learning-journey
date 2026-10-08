@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//declare a varriable.
 int add(int a ,int b){
 	return a + b;
 }
