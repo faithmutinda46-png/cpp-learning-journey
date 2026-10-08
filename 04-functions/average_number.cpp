@@ -3,7 +3,7 @@ using namespace std;
 
 // Calculate the average of the 5 numbers in the array.
 double calculateAverage(int numbers[5]){
-	//declare a variable
+	//declare a variable.
 	int sum = 0;
 
 	// Add all the numbers in the array.
