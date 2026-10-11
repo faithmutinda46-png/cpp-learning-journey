@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-	
+
+	//declare varriables
 	int number = 0;
 	int result = 1;
 	
