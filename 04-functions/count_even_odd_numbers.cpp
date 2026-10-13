@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+void count(int numbers[5], int &evenCount, int &oddCount){
+
+    
+    for(int i = 0; i < 5; i++){
+    
+    if(numbers[i] % 2 == 0){
+    	evenCount++;
+	}else{
+		oddCount++;
+	}
+}
+ 
+}
+int main(){
+	int numbers[5];
+	int evenCount = 0;
+    int oddCount = 0;
+	
+	cout << "Enter 5 numbers: \n";
+	
+	for(int i = 0; i < 5; i++){	
+    cin >> numbers[i];
+}
+count(numbers, evenCount, oddCount);
+
+cout << "Even numbers: " << evenCount << "\n";
+cout << "Odd numbers: " << oddCount << "\n";
+return 0;
+}
