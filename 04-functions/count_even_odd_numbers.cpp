@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// Count the even and odd numbers in the array.
 void count(int numbers[5], int &evenCount, int &oddCount){
 
     
