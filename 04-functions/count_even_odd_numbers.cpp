@@ -4,7 +4,7 @@ using namespace std;
 // Count the even and odd numbers in the array.
 void count(int numbers[5], int &evenCount, int &oddCount){
 
-    
+    // Check each number in the array.
     for(int i = 0; i < 5; i++){
     
     if(numbers[i] % 2 == 0){
