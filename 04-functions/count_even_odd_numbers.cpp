@@ -6,7 +6,7 @@ void count(int numbers[5], int &evenCount, int &oddCount){
 
     // Check each number in the array.
     for(int i = 0; i < 5; i++){
-    
+    // Count the number as even if it divides by 2 with no remainder.
     if(numbers[i] % 2 == 0){
     	evenCount++;
 	}else{
