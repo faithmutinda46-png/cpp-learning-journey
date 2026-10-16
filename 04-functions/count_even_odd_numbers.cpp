@@ -10,6 +10,7 @@ void count(int numbers[5], int &evenCount, int &oddCount){
     if(numbers[i] % 2 == 0){
     	evenCount++;
 	}else{
+		// Otherwise, count it as odd.
 		oddCount++;
 	}
 }
