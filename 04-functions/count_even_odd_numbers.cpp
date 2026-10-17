@@ -21,6 +21,7 @@ int main(){
 	int evenCount = 0;
     int oddCount = 0;
 	
+	// Ask the user to enter 5 numbers.
 	cout << "Enter 5 numbers: \n";
 	
 	for(int i = 0; i < 5; i++){	
