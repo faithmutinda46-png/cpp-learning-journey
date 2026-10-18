@@ -23,7 +23,8 @@ int main(){
 	
 	// Ask the user to enter 5 numbers.
 	cout << "Enter 5 numbers: \n";
-	
+
+	// Store the numbers in the array.
 	for(int i = 0; i < 5; i++){	
     cin >> numbers[i];
 }
