@@ -31,6 +31,7 @@ int main(){
 // Count the even and odd numbers.
 count(numbers, evenCount, oddCount);
 
+// Display the results.
 cout << "Even numbers: " << evenCount << "\n";
 cout << "Odd numbers: " << oddCount << "\n";
 return 0;
