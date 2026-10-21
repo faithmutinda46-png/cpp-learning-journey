@@ -17,6 +17,7 @@ void count(int numbers[5], int &evenCount, int &oddCount){
  
 }
 int main(){
+	//declare varriables
 	int numbers[5];
 	int evenCount = 0;
     int oddCount = 0;
