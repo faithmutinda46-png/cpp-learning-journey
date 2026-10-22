@@ -27,6 +27,7 @@ int main(){
 
 	// Store the numbers in the array.
 	for(int i = 0; i < 5; i++){	
+	//Get user input
     cin >> numbers[i];
 }
 // Count the even and odd numbers.
