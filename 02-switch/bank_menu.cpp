@@ -3,7 +3,8 @@
 using namespace std;
 
 int main(){
-	
+
+	//declare varriables
 	int choice;
 	int balance = 210000;
 	int deposit;
