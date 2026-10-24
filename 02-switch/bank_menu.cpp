@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-	//declare varriables
+    // Declare variables for the menu choice, account balance, and transactions.
 	int choice;
 	int balance = 210000;
 	int deposit;
