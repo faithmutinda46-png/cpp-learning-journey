@@ -11,7 +11,8 @@ int main(){
 	int withdraw;
 	int accNo;
 	int transfer;
-	
+
+	// Display the bank menu and ask the user to choose an option.
 	cout << "Welcome to FAITH Bank ,Below is the menu:\n";
 	cout << "1.Check balance\n";
 	cout << "2.Deposit money\n";
