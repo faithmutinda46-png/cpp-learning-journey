@@ -21,7 +21,8 @@ int main(){
 	cout << "5.Exit\n";
 	cout << "Enter your choice : \n";
 	cin >> choice;
-	
+
+	// Use switch to execute the option selected by the user.
 	switch (choice){
 	case 1:
 	cout << "Your balance is ksh " << balance;
