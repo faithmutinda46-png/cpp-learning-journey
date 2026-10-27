@@ -29,6 +29,7 @@ int main(){
 	break;
 	
     case 2:
+	// Ask for the deposit amount and add it to the balance.
 	cout << "Enter the amount to deposit : ";
 	cin >> deposit;
 	cout << "Successfully deposited ksh " << deposit <<"\n";
