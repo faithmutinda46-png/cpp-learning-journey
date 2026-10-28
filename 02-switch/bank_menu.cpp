@@ -36,7 +36,8 @@ int main(){
 	balance = balance + deposit;
 	cout << "Your new balance : " << balance;
 	break;
-	
+
+	// Ask for the withdrawal amount and subtract it from the balance.
 	case 3:
 	cout << "Enter amount to withdraw : ";
 	cin >> withdraw;
