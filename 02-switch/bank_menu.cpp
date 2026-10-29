@@ -45,7 +45,8 @@ int main(){
 	balance = balance - withdraw;
 	cout << "Your new balance is " << balance;
 	break;
-	
+
+	// Ask for the recipient's account number and transfer amount.
 	case 4:
 	cout << "Enter account number : ";
 	cin >> accNo;
