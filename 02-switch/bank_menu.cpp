@@ -54,7 +54,8 @@ int main(){
 	cin >> transfer;
 	cout << "Successfull transfer of ksh " << transfer;
 	break;
-	
+
+	// Display a goodbye message when the user chooses to exit.
 	case 5:
 		cout << "Thank you for banking with FAITH Bank. Goodbye!";
 		break;
