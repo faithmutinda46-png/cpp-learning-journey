@@ -59,7 +59,7 @@ int main(){
 	case 5:
 		cout << "Thank you for banking with FAITH Bank. Goodbye!";
 		break;
-	
+	// Handle a menu choice that is not between 1 and 5.
 	default:
 		cout << "Invalid choice";
 	
