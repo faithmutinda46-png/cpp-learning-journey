@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
 	
+	// Declare variables to store the user's choice and two numbers.
 	int choice;
 	int firstNum;
 	int secondNum;
