@@ -13,7 +13,8 @@ int main(){
 	cout << "2.Subtraction\n";
 	cout << "3.Division\n";
 	cout << "4.Multiplication\n";
-	
+
+	// Ask the user to select an operation.
 	cout << "Choose an operation : ";
 	cin >> choice;
 	
