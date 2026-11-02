@@ -7,7 +7,8 @@ int main(){
 	int choice;
 	int firstNum;
 	int secondNum;
-	
+
+	// Display the available mathematical operations.
 	cout << "1.Addition\n";
 	cout << "2.Subtraction\n";
 	cout << "3.Division\n";
