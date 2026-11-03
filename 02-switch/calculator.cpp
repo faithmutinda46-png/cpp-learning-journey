@@ -17,7 +17,8 @@ int main(){
 	// Ask the user to select an operation.
 	cout << "Choose an operation : ";
 	cin >> choice;
-	
+
+	// Ask the user to enter two numbers.
 	cout << "Enter the First number : ";
 	cin >> firstNum;
 	
