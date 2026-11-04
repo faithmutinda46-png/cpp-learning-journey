@@ -24,7 +24,8 @@ int main(){
 	
 	cout << "Enter the second number : ";
 	cin >> secondNum;
-	
+
+	// Use switch to perform the operation selected by the user.
 	switch(choice){
 		case 1:
 			cout << "Answer = " <<firstNum + secondNum;
