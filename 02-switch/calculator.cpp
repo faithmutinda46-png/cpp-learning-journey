@@ -28,6 +28,7 @@ int main(){
 	// Use switch to perform the operation selected by the user.
 	switch(choice){
 		case 1:
+			// Add the two numbers.
 			cout << "Answer = " <<firstNum + secondNum;
 			break;
 		case 2:
