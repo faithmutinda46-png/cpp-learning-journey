@@ -32,6 +32,7 @@ int main(){
 			cout << "Answer = " <<firstNum + secondNum;
 			break;
 		case 2:
+			// Subtract the second number from the first.
 			cout << "Answer = " <<firstNum - secondNum;
 			break;
 		case 3:
