@@ -36,6 +36,7 @@ int main(){
 			cout << "Answer = " <<firstNum - secondNum;
 			break;
 		case 3:
+			// Divide the first number by the second.
 			cout << "Answer = " <<firstNum / secondNum;
 			break;
 		case 4:
