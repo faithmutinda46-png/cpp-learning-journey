@@ -40,6 +40,7 @@ int main(){
 			cout << "Answer = " <<firstNum / secondNum;
 			break;
 		case 4:
+			// Multiply the two numbers.
 			cout << "Answer = " <<firstNum * secondNum;
 			break;
 		default:
