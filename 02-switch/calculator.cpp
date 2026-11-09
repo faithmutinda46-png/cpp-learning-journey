@@ -44,6 +44,7 @@ int main(){
 			cout << "Answer = " <<firstNum * secondNum;
 			break;
 		default:
+			// Multiply the two numbers.
 			cout << "Invalid choice";
 	}
 	return 0;
