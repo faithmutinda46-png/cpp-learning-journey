@@ -44,7 +44,7 @@ int main(){
 			cout << "Answer = " <<firstNum * secondNum;
 			break;
 		default:
-			// Multiply the two numbers.
+			// Handle a menu choice that is not between 1 and 5.
 			cout << "Invalid choice";
 	}
 	return 0;
