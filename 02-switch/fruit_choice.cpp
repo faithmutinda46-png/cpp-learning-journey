@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+	// Declare a variable to store the user's choice.
 	int number;
 	
 	cout << "Choose a fruit:\n";
