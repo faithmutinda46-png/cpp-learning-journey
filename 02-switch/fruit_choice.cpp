@@ -4,7 +4,8 @@ using namespace std;
 int main(){
 	// Declare a variable to store the user's choice.
 	int number;
-	
+
+	 // Display the available fruits
 	cout << "Choose a fruit:\n";
 	cout << "1.Apple\n";
 	cout << "2.Banana\n";
