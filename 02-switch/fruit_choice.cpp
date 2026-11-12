@@ -10,7 +10,8 @@ int main(){
 	cout << "1.Apple\n";
 	cout << "2.Banana\n";
 	cout << "3.Orange\n";
-	
+
+	// Ask the user to select a fruit.
 	cout << "Enter your choice : ";
 	cin >> number;
 	
