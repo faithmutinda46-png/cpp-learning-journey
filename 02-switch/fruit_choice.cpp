@@ -15,7 +15,7 @@ int main(){
 	cout << "Enter your choice : ";
 	cin >> number;
 	
-	
+	// Use switch to display the fruit selected by the user.
 	switch(number){
 		case 1:
 			cout << "You selected an Apple.";
