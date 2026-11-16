@@ -21,7 +21,7 @@ int main(){
 			// Display a message if the user selects Apple.
 			cout << "You selected an Apple.";
 			break;
-			
+		// Display a message if the user selects Banana.	
 		case 2:
 		    cout << "You selcted a Banana.";
 		    break;
