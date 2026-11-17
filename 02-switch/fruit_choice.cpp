@@ -25,7 +25,7 @@ int main(){
 		case 2:
 		    cout << "You selcted a Banana.";
 		    break;
-		
+		// Divide the first number by the second.
 		case 3:
 			cout << "You selected an Orange.";
 			break;
