@@ -29,7 +29,10 @@ int main(){
 		case 3:
 			cout << "You selected an Orange.";
 			break;
-			
+		case 4:
+            // Multiply the two numbers.
+            cout << "Answer = " << firstNum * secondNum;
+            break;	
 		default:
 			cout << "Invalid choice.";
 			
