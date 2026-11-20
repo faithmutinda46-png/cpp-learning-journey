@@ -17,8 +17,8 @@ int main(){
 	
 	// Use switch to display the fruit selected by the user.
 	switch(number){
+		// Display a message if the user selects Apple.
 		case 1:
-			// Display a message if the user selects Apple.
 			cout << "You selected an Apple.";
 			break;
 		// Display a message if the user selects Banana.	
