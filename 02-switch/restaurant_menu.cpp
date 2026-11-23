@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
 	
+	// Declare a variable to store the customer's menu choice.
 	int choice;
 	
 	cout << "Customer welcome to Faith restaurant, this is our menu :\n";
