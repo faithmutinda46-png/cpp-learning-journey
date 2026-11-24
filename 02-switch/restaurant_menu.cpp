@@ -6,7 +6,8 @@ int main(){
 	
 	// Declare a variable to store the customer's menu choice.
 	int choice;
-	
+
+    // Display the restaurant menu.
 	cout << "Customer welcome to Faith restaurant, this is our menu :\n";
 	cout << "1.Fries\n";
 	cout << "2.Pilau\n";
