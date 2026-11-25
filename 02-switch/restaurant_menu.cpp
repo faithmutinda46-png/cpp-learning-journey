@@ -16,6 +16,7 @@ int main(){
 	cout << "5.Burger\n";
 	cout << "6.Pizza\n";
 
+    // Ask the customer to enter their order.
     cout << "Enter your order : ";
     cin >> choice;
     
