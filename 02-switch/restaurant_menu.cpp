@@ -19,7 +19,8 @@ int main(){
     // Ask the customer to enter their order.
     cout << "Enter your order : ";
     cin >> choice;
-    
+
+	// Use switch to identify the selected meal and display its preparation time.
     switch(choice){
     	case 1:
     		cout << "Your choice is Fries. will be ready in 10 minutes. Thank you.";
