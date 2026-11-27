@@ -22,6 +22,7 @@ int main(){
 
 	// Use switch to identify the selected meal and display its preparation time.
     switch(choice){
+		// Display the order confirmation for Fries.
     	case 1:
     		cout << "Your choice is Fries. will be ready in 10 minutes. Thank you.";
     		break;
