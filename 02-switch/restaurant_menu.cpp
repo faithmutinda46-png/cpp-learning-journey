@@ -26,6 +26,7 @@ int main(){
     	case 1:
     		cout << "Your choice is Fries. will be ready in 10 minutes. Thank you.";
     		break;
+		// Display the order confirmation for Pilau.
     	case 2:
     		cout << "Your choice is Pilau. will be ready in 15 minutes. Thank you.";
     		break;
